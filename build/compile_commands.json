@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/root/Algorithm/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/main.dir/src/leetcode/49.cpp.o -c /root/Algorithm/src/leetcode/49.cpp",
+  "file": "/root/Algorithm/src/leetcode/49.cpp"
+}
+]

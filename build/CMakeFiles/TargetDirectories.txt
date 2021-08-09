@@ -1,0 +1,3 @@
+/root/Algorithm/build/CMakeFiles/rebuild_cache.dir
+/root/Algorithm/build/CMakeFiles/main.dir
+/root/Algorithm/build/CMakeFiles/edit_cache.dir

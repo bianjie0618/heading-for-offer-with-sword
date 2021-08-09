@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "gdb(Launch)", // 名字随便
+            "type": "cppdbg",
+            "request": "launch", // 这个是启动任务，不是附加任务
+            "program": "${workspaceFolder}/bin/main", // 要执行的可执行文件的路径
+            "args": [], // 该可执行文件执行时后面跟随的参数
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}", // 表示当前的工作目录在哪里
+            "environment": [],
+            "externalConsole": false, // 是否使用外部控制台
+            "internalConsoleOptions": "neverOpen",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb", // debugger的路径
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build" // 该任务启动前预先执行的任务，即编译任务
+        }
+    ]
+}
