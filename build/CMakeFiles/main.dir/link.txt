@@ -1,1 +1,1 @@
-/usr/bin/x86_64-linux-gnu-g++-7  -g   CMakeFiles/main.dir/src/leetcode/49.cpp.o  -o ../bin/main 
+/usr/bin/x86_64-linux-gnu-g++-7  -g   CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o  -o ../bin/main 

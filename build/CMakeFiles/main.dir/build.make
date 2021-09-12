@@ -57,38 +57,38 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/src/leetcode/49.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/leetcode/49.cpp.o: ../src/leetcode/49.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Algorithm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/leetcode/49.cpp.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/leetcode/49.cpp.o -c /root/Algorithm/src/leetcode/49.cpp
+CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o: ../src/huawei/fusongyan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Algorithm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o -c /root/Algorithm/src/huawei/fusongyan.cpp
 
-CMakeFiles/main.dir/src/leetcode/49.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/leetcode/49.cpp.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Algorithm/src/leetcode/49.cpp > CMakeFiles/main.dir/src/leetcode/49.cpp.i
+CMakeFiles/main.dir/src/huawei/fusongyan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/huawei/fusongyan.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Algorithm/src/huawei/fusongyan.cpp > CMakeFiles/main.dir/src/huawei/fusongyan.cpp.i
 
-CMakeFiles/main.dir/src/leetcode/49.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/leetcode/49.cpp.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Algorithm/src/leetcode/49.cpp -o CMakeFiles/main.dir/src/leetcode/49.cpp.s
+CMakeFiles/main.dir/src/huawei/fusongyan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/huawei/fusongyan.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Algorithm/src/huawei/fusongyan.cpp -o CMakeFiles/main.dir/src/huawei/fusongyan.cpp.s
 
-CMakeFiles/main.dir/src/leetcode/49.cpp.o.requires:
+CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o.requires:
 
-.PHONY : CMakeFiles/main.dir/src/leetcode/49.cpp.o.requires
+.PHONY : CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o.requires
 
-CMakeFiles/main.dir/src/leetcode/49.cpp.o.provides: CMakeFiles/main.dir/src/leetcode/49.cpp.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/leetcode/49.cpp.o.provides.build
-.PHONY : CMakeFiles/main.dir/src/leetcode/49.cpp.o.provides
+CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o.provides: CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o.provides
 
-CMakeFiles/main.dir/src/leetcode/49.cpp.o.provides.build: CMakeFiles/main.dir/src/leetcode/49.cpp.o
+CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o.provides.build: CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o
 
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/src/leetcode/49.cpp.o"
+"CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-../bin/main: CMakeFiles/main.dir/src/leetcode/49.cpp.o
+../bin/main: CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o
 ../bin/main: CMakeFiles/main.dir/build.make
 ../bin/main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Algorithm/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/main"
@@ -99,7 +99,7 @@ CMakeFiles/main.dir/build: ../bin/main
 
 .PHONY : CMakeFiles/main.dir/build
 
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/leetcode/49.cpp.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o.requires
 
 .PHONY : CMakeFiles/main.dir/requires
 

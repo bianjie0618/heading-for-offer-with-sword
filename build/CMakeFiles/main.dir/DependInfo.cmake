@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/Algorithm/src/leetcode/49.cpp" "/root/Algorithm/build/CMakeFiles/main.dir/src/leetcode/49.cpp.o"
+  "/root/Algorithm/src/huawei/fusongyan.cpp" "/root/Algorithm/build/CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

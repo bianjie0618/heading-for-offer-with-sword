@@ -123,32 +123,32 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-src/leetcode/49.o: src/leetcode/49.cpp.o
+src/huawei/fusongyan.o: src/huawei/fusongyan.cpp.o
 
-.PHONY : src/leetcode/49.o
+.PHONY : src/huawei/fusongyan.o
 
 # target to build an object file
-src/leetcode/49.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/leetcode/49.cpp.o
-.PHONY : src/leetcode/49.cpp.o
+src/huawei/fusongyan.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/huawei/fusongyan.cpp.o
+.PHONY : src/huawei/fusongyan.cpp.o
 
-src/leetcode/49.i: src/leetcode/49.cpp.i
+src/huawei/fusongyan.i: src/huawei/fusongyan.cpp.i
 
-.PHONY : src/leetcode/49.i
+.PHONY : src/huawei/fusongyan.i
 
 # target to preprocess a source file
-src/leetcode/49.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/leetcode/49.cpp.i
-.PHONY : src/leetcode/49.cpp.i
+src/huawei/fusongyan.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/huawei/fusongyan.cpp.i
+.PHONY : src/huawei/fusongyan.cpp.i
 
-src/leetcode/49.s: src/leetcode/49.cpp.s
+src/huawei/fusongyan.s: src/huawei/fusongyan.cpp.s
 
-.PHONY : src/leetcode/49.s
+.PHONY : src/huawei/fusongyan.s
 
 # target to generate assembly for a file
-src/leetcode/49.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/leetcode/49.cpp.s
-.PHONY : src/leetcode/49.cpp.s
+src/huawei/fusongyan.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/huawei/fusongyan.cpp.s
+.PHONY : src/huawei/fusongyan.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... main"
 	@echo "... edit_cache"
-	@echo "... src/leetcode/49.o"
-	@echo "... src/leetcode/49.i"
-	@echo "... src/leetcode/49.s"
+	@echo "... src/huawei/fusongyan.o"
+	@echo "... src/huawei/fusongyan.i"
+	@echo "... src/huawei/fusongyan.s"
 .PHONY : help
 
 

@@ -6,6 +6,6 @@ set(CMake_BUILD_TYPE "Debug")
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
-set(Target ${PROJECT_SOURCE_DIR}/src/leetcode/49.cpp)
+set(Target ${PROJECT_SOURCE_DIR}/src/huawei/fusongyan.cpp)
 
 add_executable(main ${Target})
